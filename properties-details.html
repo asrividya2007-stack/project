@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Property Details | Sri Vidya Estates</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<!-- ============================= -->
+<!-- NAVBAR -->
+<!-- ============================= -->
+
+<header class="navbar">
+
+    <div class="logo">
+
+        <span>S</span>
+
+        <div>
+
+            <h2>SRI VIDYA</h2>
+
+            <p>ESTATES</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="menu-toggle"
+         id="menuToggle">
+
+        ☰
+
+    </div>
+
+
+    <nav id="mainNav">
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="properties.html">
+            Properties
+        </a>
+
+        <a href="about.html">
+            About Us
+        </a>
+
+        <a href="services.html">
+            Services
+        </a>
+
+        <a href="contact.html">
+            Contact
+        </a>
+
+    </nav>
+
+
+    <a href="contact.html"
+       class="nav-button">
+
+        Enquire Now
+
+    </a>
+
+</header>
+
+
+
+<!-- ============================= -->
+<!-- PROPERTY DETAILS -->
+<!-- ============================= -->
+
+<section class="property-details-container">
+
+
+    <!-- IMAGE -->
+
+    <div class="details-image">
+
+        <img
+            id="detailsImage"
+            src=""
+            alt="Property">
+
+    </div>
+
+
+    <!-- INFORMATION -->
+
+    <div class="details-content">
+
+
+        <p
+            class="small-title"
+            id="detailsType">
+        </p>
+
+
+        <h1 id="detailsTitle">
+        </h1>
+
+
+        <p
+            class="details-location"
+            id="detailsLocation">
+        </p>
+
+
+        <div
+            class="details-price"
+            id="detailsPrice">
+        </div>
+
+
+        <!-- PROPERTY STATS -->
+
+        <div class="details-stats">
+
+
+            <div>
+
+                <strong id="detailsBeds">
+                </strong>
+
+                <span>
+                    Bedrooms
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <strong id="detailsBaths">
+                </strong>
+
+                <span>
+                    Bathrooms
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <strong id="detailsArea">
+                </strong>
+
+                <span>
+                    Area
+                </span>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- DESCRIPTION -->
+
+        <div class="details-description">
+
+            <h2>
+                About This Property
+            </h2>
+
+            <p id="detailsDescription">
+            </p>
+
+        </div>
+
+
+        <a
+            href="contact.html"
+            class="primary-btn">
+
+            Enquire About This Property →
+
+        </a>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ============================= -->
+<!-- FOOTER -->
+<!-- ============================= -->
+
+<footer>
+
+    <div class="footer-content">
+
+
+        <!-- BRAND -->
+
+        <div class="footer-brand">
+
+            <h2>
+                SRI VIDYA
+            </h2>
+
+            <p>
+                ESTATES
+            </p>
+
+            <span>
+                Where Your Dream Home Begins.
+            </span>
+
+        </div>
+
+
+        <!-- QUICK LINKS -->
+
+        <div>
+
+            <h4>
+                QUICK LINKS
+            </h4>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="properties.html">
+                Properties
+            </a>
+
+            <a href="about.html">
+                About Us
+            </a>
+
+            <a href="services.html">
+                Services
+            </a>
+
+        </div>
+
+
+        <!-- CONTACT -->
+
+        <div>
+
+            <h4>
+                CONTACT
+            </h4>
+
+            <p>
+                📞 +91 XXXXX XXXXX
+            </p>
+
+            <p>
+                ✉️ info@srividyaestates.com
+            </p>
+
+            <p>
+                📍 Andhra Pradesh, India
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 Sri Vidya Estates.
+        All Rights Reserved.
+
+    </div>
+
+</footer>
+
+
+
+<!-- ============================= -->
+<!-- MAIN JAVASCRIPT -->
+<!-- ============================= -->
+
+<script src="js/script.js"></script>
+
+
+
+<!-- ============================= -->
+<!-- PROPERTY DETAILS JAVASCRIPT -->
+<!-- ============================= -->
+
+<script>
+
+const propertyData = {
+
+
+    /* ========================= */
+    /* PROPERTY 1 */
+    /* ========================= */
+
+    "modern-serenity-villa": {
+
+        type: "LUXURY VILLA",
+
+        title: "Modern Serenity Villa",
+
+        location: "📍 Tirupati, Andhra Pradesh",
+
+        price: "₹1.85 Cr",
+
+        beds: "4",
+
+        baths: "4",
+
+        area: "3,200 Sq.Ft",
+
+        image: "images/villa1.jpg",
+
+        description:
+            "A beautiful luxury villa in Tirupati featuring spacious bedrooms, modern interiors, premium amenities and a peaceful environment."
+
+    },
+
+
+    /* ========================= */
+    /* PROPERTY 2 */
+    /* ========================= */
+
+    "skyline-residency": {
+
+        type: "PREMIUM APARTMENT",
+
+        title: "Skyline Residency",
+
+        location: "📍 Hyderabad, Telangana",
+
+        price: "₹95 Lakhs",
+
+        beds: "3",
+
+        baths: "3",
+
+        area: "2,100 Sq.Ft",
+
+        image: "images/apartment1.jpg",
+
+        description:
+            "A premium apartment in Hyderabad with modern design, comfortable living spaces and excellent connectivity."
+
+    },
+
+
+    /* ========================= */
+    /* PROPERTY 3 */
+    /* ========================= */
+
+    "green-valley-residence": {
+
+        type: "INDEPENDENT HOUSE",
+
+        title: "Green Valley Residence",
+
+        location: "📍 Bengaluru, Karnataka",
+
+        price: "₹1.25 Cr",
+
+        beds: "3",
+
+        baths: "3",
+
+        area: "2,500 Sq.Ft",
+
+        image: "images/house1.jpg",
+
+        description:
+            "A spacious independent house in Bengaluru designed for comfortable family living with modern facilities."
+
+    },
+
+
+    /* ========================= */
+    /* PROPERTY 4 */
+    /* ========================= */
+
+    "royal-garden-villa": {
+
+        type: "PREMIUM VILLA",
+
+        title: "Royal Garden Villa",
+
+        location: "📍 Chennai, Tamil Nadu",
+
+        price: "₹2.40 Cr",
+
+        beds: "5",
+
+        baths: "5",
+
+        area: "4,100 Sq.Ft",
+
+        image: "images/villa1.jpg",
+
+        description:
+            "A premium villa in Chennai offering spacious rooms, elegant interiors and a luxurious lifestyle."
+
+    },
+
+
+    /* ========================= */
+    /* PROPERTY 5 */
+    /* ========================= */
+
+    "urban-heights": {
+
+        type: "LUXURY APARTMENT",
+
+        title: "Urban Heights",
+
+        location: "📍 Bengaluru, Karnataka",
+
+        price: "₹82 Lakhs",
+
+        beds: "3",
+
+        baths: "2",
+
+        area: "1,850 Sq.Ft",
+
+        image: "images/apartment1.jpg",
+
+        description:
+            "A modern luxury apartment in Bengaluru with comfortable living spaces and convenient access to the city."
+
+    },
+
+
+    /* ========================= */
+    /* PROPERTY 6 */
+    /* ========================= */
+
+    "harmony-residence": {
+
+        type: "INDEPENDENT HOUSE",
+
+        title: "Harmony Residence",
+
+        location: "📍 Vijayawada, Andhra Pradesh",
+
+        price: "₹1.10 Cr",
+
+        beds: "4",
+
+        baths: "3",
+
+        area: "2,800 Sq.Ft",
+
+        image: "images/house1.jpg",
+
+        description:
+            "A comfortable independent house in Vijayawada with spacious rooms and a peaceful residential environment."
+
+    }
+
+};
+
+
+
+/* ============================= */
+/* GET PROPERTY ID FROM URL */
+/* ============================= */
+
+const urlParams =
+    new URLSearchParams(
+        window.location.search
+    );
+
+
+const propertyId =
+    urlParams.get("id");
+
+
+/* ============================= */
+/* FIND PROPERTY */
+/* ============================= */
+
+const property =
+    propertyData[propertyId];
+
+
+
+/* ============================= */
+/* DISPLAY PROPERTY */
+/* ============================= */
+
+if (property) {
+
+
+    document.getElementById(
+        "detailsImage"
+    ).src = property.image;
+
+
+    document.getElementById(
+        "detailsImage"
+    ).alt = property.title;
+
+
+    document.getElementById(
+        "detailsType"
+    ).innerText = property.type;
+
+
+    document.getElementById(
+        "detailsTitle"
+    ).innerText = property.title;
+
+
+    document.getElementById(
+        "detailsLocation"
+    ).innerText = property.location;
+
+
+    document.getElementById(
+        "detailsPrice"
+    ).innerText = property.price;
+
+
+    document.getElementById(
+        "detailsBeds"
+    ).innerText = property.beds;
+
+
+    document.getElementById(
+        "detailsBaths"
+    ).innerText = property.baths;
+
+
+    document.getElementById(
+        "detailsArea"
+    ).innerText = property.area;
+
+
+    document.getElementById(
+        "detailsDescription"
+    ).innerText =
+        property.description;
+
+
+}
+
+
+
+/* ============================= */
+/* PROPERTY NOT FOUND */
+/* ============================= */
+
+else {
+
+
+    document.getElementById(
+        "detailsTitle"
+    ).innerText =
+        "Property Not Found";
+
+
+    document.getElementById(
+        "detailsDescription"
+    ).innerText =
+        "The property you are looking for does not exist.";
+
+
+}
+
+</script>
+
+
+</body>
+
+</html>
